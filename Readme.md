@@ -36,3 +36,10 @@ The file 'Program.cs' contains the solution of 1 practical workbook.
                             throw new OverflowException($"Error: Result {result} is out of range (-10,000,000 to 10,000,000)!");
                         }
     ```
+---
+#### Possible developer errors when writing and debugging code.
+- Strange handling of empty input. If you just press Enter instead of a number, the method will return 0. This is not obvious to the new users. (Странная обработка пустого ввода. Если просто нажать Enter вместо числа, метод вернёт 0. Это неочевидно для новых пользователей.)
+
+- If you enter letters, the program will crash: The ReadNumberWithLimit method does not check if the input is actually a number. If the user enters "hello", the program will crash with an error. (Если ввести буквы, то программа сломается: Метод ReadNumberWithLimit не проверяет, является ли ввод числом. Если пользователь введёт "hello", программа завершится с ошибкой.)
+
+- When errors occur, the user does not get a clear message about what exactly went wrong. (При возникновении ошибок пользователь не получает понятного сообщения о том, что именно пошло не так.)

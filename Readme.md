@@ -1,8 +1,9 @@
 # corporate-systems
 ### My project for university, third semester, subject: corporate systems
 ---
-The file 'calc.cs' contains the solution of 1 practical workbook.  
-Implemented limitations for the calculator:
+The file 'Program.cs' contains the solution of 1 practical workbook.  
+
+#### Implemented limitations for the calculator:
 - dividing by 0
   implemented a restriction for division by 0 operations
   ```csharp

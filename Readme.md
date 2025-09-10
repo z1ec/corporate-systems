@@ -43,3 +43,6 @@ The file 'Program.cs' contains the solution of 1 practical workbook.
 - If you enter letters, the program will crash: The ReadNumberWithLimit method does not check if the input is actually a number. If the user enters "hello", the program will crash with an error. (Если ввести буквы, то программа сломается: Метод ReadNumberWithLimit не проверяет, является ли ввод числом. Если пользователь введёт "hello", программа завершится с ошибкой.)
 
 - When errors occur, the user does not get a clear message about what exactly went wrong. (При возникновении ошибок пользователь не получает понятного сообщения о том, что именно пошло не так.)
+
+
+fdssddsfdsf
